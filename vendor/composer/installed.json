@@ -1,0 +1,271 @@
+[
+    {
+        "name": "f1soft/module-installer",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "http://10.13.212.6:3000/f1cms/f1cms-module-installer.git",
+            "reference": "v1.0.1"
+        },
+        "time": "2013-03-17 11:04:53",
+        "type": "composer-installer",
+        "extra": {
+            "class": "F1soft\\Module\\Composer\\ModuleInstaller"
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "F1soft\\Module\\Composer": "src/"
+            }
+        }
+    },
+    {
+        "name": "f1cms-module/slider",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "http://10.13.212.6:3000/f1cms-modules/slider.git",
+            "reference": "11c648ff800c3ca19b2efe94209fa8e6ea34e9fb"
+        },
+        "require": {
+            "f1soft/module-installer": "1.0.*"
+        },
+        "time": "2013-06-25 07:44:55",
+        "type": "f1cms-module",
+        "installation-source": "source"
+    },
+    {
+        "name": "f1cms-module/quicklinks",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "http://10.13.212.6:3000/f1cms-modules/quicklinks.git",
+            "reference": "d668ba105853fd19bf4fd7ba95fd78638d65ae47"
+        },
+        "require": {
+            "f1soft/module-installer": "1.0.*"
+        },
+        "time": "2013-03-27 11:14:54",
+        "type": "f1cms-module",
+        "installation-source": "source"
+    },
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "2.3.x-dev",
+        "version_normalized": "2.3.9999999.9999999-dev",
+        "target-dir": "Symfony/Component/EventDispatcher",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/EventDispatcher.git",
+            "reference": "41c9826457c65fa3cf746f214985b7ca9cba42f8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/41c9826457c65fa3cf746f214985b7ca9cba42f8",
+            "reference": "41c9826457c65fa3cf746f214985b7ca9cba42f8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "symfony/dependency-injection": "~2.0"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2013-07-21 12:12:18",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.3-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            }
+        },
+        "notification-url": "http://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "http://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "http://symfony.com"
+    },
+    {
+        "name": "f1cms-module/outletlocator",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "http://10.13.212.6:3000/f1cms-modules/outletlocator.git",
+            "reference": "358a80ad4f01078d8aef0bbeff43e1563a747857"
+        },
+        "require": {
+            "f1soft/module-installer": "1.0.*"
+        },
+        "time": "2013-04-04 05:28:15",
+        "type": "f1cms-module",
+        "installation-source": "source"
+    },
+    {
+        "name": "f1cms-module/footer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "http://10.13.212.6:3000/f1cms-modules/footer.git",
+            "reference": "945027dca60091e7b3763babbb5c924d6beacb90"
+        },
+        "require": {
+            "f1soft/module-installer": "1.0.*"
+        },
+        "time": "2013-04-05 05:02:04",
+        "type": "f1cms-module",
+        "installation-source": "source"
+    },
+    {
+        "name": "f1cms-module/forex",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "http://10.13.212.6:3000/f1cms-modules/forex.git",
+            "reference": "042baed06695d8f2b8ad0ef1ae70ec8ec48c21cf"
+        },
+        "require": {
+            "f1soft/module-installer": "1.0.*"
+        },
+        "time": "2013-04-11 12:13:43",
+        "type": "f1cms-module",
+        "installation-source": "source"
+    },
+    {
+        "name": "f1cms-module/downloads",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "http://10.13.212.6:3000/f1cms-modules/downloads.git",
+            "reference": "9a74aa502776f8639c334ddab52cf25ec65e0c8f"
+        },
+        "require": {
+            "f1soft/module-installer": "1.0.*"
+        },
+        "time": "2013-04-17 10:19:38",
+        "type": "f1cms-module",
+        "installation-source": "source"
+    },
+    {
+        "name": "f1cms-module/management",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "http://10.13.212.6:3000/f1cms-modules/management.git",
+            "reference": "c6fb7973f802a2f4482ee0f81a5f8f2cc6954f5e"
+        },
+        "require": {
+            "f1soft/module-installer": "1.0.*"
+        },
+        "time": "2013-04-16 05:37:18",
+        "type": "f1cms-module",
+        "installation-source": "source"
+    },
+    {
+        "name": "f1cms-module/contact",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "http://10.13.212.6:3000/f1cms-modules/contact.git",
+            "reference": "5bb05a73a1aca0bbc2186da5eb07b98f2f1685ee"
+        },
+        "require": {
+            "f1soft/module-installer": "1.0.*"
+        },
+        "time": "2013-05-02 09:53:00",
+        "type": "f1cms-module",
+        "installation-source": "source"
+    },
+    {
+        "name": "f1cms-module/feedback",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "http://10.13.212.6:3000/f1cms-modules/feedback.git",
+            "reference": "e2228e132235a8ff1927eaa3f1eb61717a2369d6"
+        },
+        "require": {
+            "f1soft/module-installer": "1.0.*"
+        },
+        "time": "2013-04-16 06:24:46",
+        "type": "f1cms-module",
+        "installation-source": "source"
+    },
+    {
+        "name": "f1cms-module/ticker",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "http://10.13.212.6:3000/f1cms-modules/ticker.git",
+            "reference": "d79002274196ca1050476c59b3c485a88f626569"
+        },
+        "require": {
+            "f1soft/module-installer": "1.0.*"
+        },
+        "time": "2013-03-27 07:46:13",
+        "type": "f1cms-module",
+        "installation-source": "source"
+    },
+    {
+        "name": "f1cms-module/career",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "http://10.13.212.6:3000/f1cms-modules/career.git",
+            "reference": "0e174d75c285721599f69ce06762c9d448a410fe"
+        },
+        "require": {
+            "f1soft/module-installer": "1.0.*"
+        },
+        "time": "2013-05-14 10:02:18",
+        "type": "f1cms-module",
+        "installation-source": "source"
+    },
+    {
+        "name": "f1cms-module/toplinks",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "http://10.13.212.6:3000/f1cms-modules/toplinks.git",
+            "reference": "e6061cd60f426c74dfcff17ce61c9d02a3948123"
+        },
+        "require": {
+            "f1soft/module-installer": "1.0.*"
+        },
+        "time": "2013-04-16 11:47:43",
+        "type": "f1cms-module",
+        "installation-source": "source"
+    }
+]

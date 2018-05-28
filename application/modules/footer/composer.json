@@ -1,0 +1,13 @@
+{
+    "name": "f1cms-module/footer",
+    "type": "f1cms-module",
+    "require": {
+        "f1soft/module-installer": "1.0.*"
+    },
+    "repositories": [
+    	{
+    		"type": "git",
+    		"url": "http://10.13.212.6:3000/f1cms/f1cms-module-installer.git"
+    	}
+    ]
+}

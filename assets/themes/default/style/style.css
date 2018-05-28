@@ -1,0 +1,119 @@
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	text-align:left;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remove textarea resize at Safari */
+textarea { 
+	resize: none;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Basic  ---------------------------------------- */
+
+.clear { clear: both; }
+
+body {
+	background: #f0f0f0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #646464;
+	text-align: center;
+}
+
+#wrap{	margin-top:15px;
+		
+		background:#fff;
+		padding-top:10px;
+		padding-bottom:25px;
+		-webkit-box-shadow: 1px 1px 9px 3px #ccc;
+		-moz-box-shadow: 1px 1px 9px 3px #ccc;
+		box-shadow: 1px 1px 9px 3px #ccc;
+		
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+	}
+
+/*************************************/
+#header .intro{
+	
+}
+
+#header .intro h1{ font-size:20px;text-align:right;}
+
+/*****************************************/
+#navigation{ margin-top:10px;
+margin-bottom:10px;}
+/*
+ul#nav li{padding:8px 0; float:left; display:block; background:#aeaeae; border-right:2px #000 solid;}
+ul#nav li a{ padding:8px 15px; text-decoration:none;}
+*/
+
+#nav{position:relative;height:39px;font-size:11px;font-weight:bold;background:transparent url(../images/bgOFF1.gif) repeat-x top left;font-family:Arial,Verdana,Helvitica,sans-serif;border-top:4px solid #B30000;}
+#nav ul{margin:0;padding:0;list-style-type:none;width:auto;}
+#nav ul li{display:block;float:left;margin:0;}
+#nav ul li a{display:block;float:left;color:#666;text-decoration:none;padding:11px 20px 0 20px;height:23px;background:transparent url(../images/bgDIVIDER1.gif) no-repeat top right;}
+#nav ul li a:hover,#nav ul li a.current{color:#B30000;background:#fff url(../images/bgON1.gif) no-repeat top right;}
+/****************************************************************************/
+
+
+
+/**************************************************************************/
+#footer{ 
+	margin-top:15px;
+	background:#999;
+	padding-top:20px;
+	padding-bottom:20px;
+	color:#ccc;
+}
+
+#footer .footer-block p{
+	padding:8px;
+}
+
+#footer .footer-block h3{ color:#B30000; font-size:16px; border-bottom:1px solid #B30000; margin-bottom:5px;}
+
+.copy{ text-align:right; font-size:10px; margin-top:5px;}
